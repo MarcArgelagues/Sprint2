@@ -10771,6 +10771,11 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+@media (max-width: 768px) {
+  .media1 {
+    flex-direction: column;
+  }
+}
 .btn-secondary:hover {
   background-color: white;
   color: #FA5959;

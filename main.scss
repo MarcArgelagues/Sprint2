@@ -18,6 +18,12 @@ $theme-colors: (
   secondary: $secondary,
 );
 
+@media (max-width:768px) {
+.media1 {
+  flex-direction: column;
+}
+
+}
 
 .btn-secondary:hover {
  background-color: white;
